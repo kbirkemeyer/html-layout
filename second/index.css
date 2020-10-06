@@ -1,5 +1,7 @@
 body {
     box-sizing: border-box;
+    border: 25px solid white;
+    display: block;
 }
 
 #prettyShapes {
@@ -11,7 +13,6 @@ body {
 
 #tallRectangle {
     background-color:purple;
-    float: left;
     height: 20vh;
     width: 3vw;
     border: 50px solid white;
@@ -19,7 +20,6 @@ body {
 
 #longRectangle {
     background-color: green;
-    float: clear;
     height: 25vh;
     width: 35vw;
     border: 50px solid white;
@@ -27,12 +27,24 @@ body {
 
 #circle {
     background-color: skyblue;
-    float: right;
     height: 600px;
     width: 600px;
     border-radius: 50%;
+    border: 50px solid white;
 }
 
 .row {
-    display:inline-block;
+    display: inline-block;
+}
+
+#midsection {
+    height: 30vh;
+    width: 100vw;
+    border: 10px dotted black;
+}
+
+#longRectangle2 {
+    height: 25vh;
+    width: 80vw;
+    background-color: lightgoldenrodyellow;
 }
