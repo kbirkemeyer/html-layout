@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+}
+
+#prettyShapes {
+    background-color: white;
+    height: 30vh;
+    width: 100vw;
+    border: 10px ridge black;
+}
+
+#tallRectangle {
+    background-color:purple;
+    float: left;
+    height: 20vh;
+    width: 3vw;
+    border: 50px solid white;
+}
+
+#longRectangle {
+    background-color: green;
+    float: clear;
+    height: 25vh;
+    width: 35vw;
+    border: 50px solid white;
+}
+
+#circle {
+    background-color: skyblue;
+    float: right;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+}
+
+.row {
+    display:inline-block;
+}
