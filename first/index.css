@@ -1,0 +1,25 @@
+body {
+    box-sizing: content-box;
+}
+
+#box {
+    background-color: whitesmoke;
+    height: 80vh;
+    width: 60vw;
+    border-top: 10vw solid #4D4D4D;
+    border-bottom: 10vh solid #4D4D4D;
+}
+
+#rectangleL {
+    background-color: lightgray;
+    height: 80vh;
+    width: 10vw; 
+    float: left;
+}
+
+#rectangleR {
+    background-color: lightgray;
+    height: 80vh;
+    width: 10vw; 
+    float: right;
+}
