@@ -1,0 +1,45 @@
+#grayHeader {
+    background-color: lightgray;
+    /* height: 100px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#text {
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Farro', sans-serif;
+}
+
+#smallBox {
+    background-color: royalblue;
+    height: 80px;
+    width: 80px;
+}
+
+p {
+    text-align: left;
+    margin: 50px;
+}
+
+#strip1 {
+    height: 100px;
+    background-color: royalblue;
+}
+
+#strip2 {
+    height: 100px;
+    background-color: hotpink;
+}
+
+#strip3 {
+    height: 100px;
+    background-color: greenyellow;
+}
+
+#strip4 {
+    height: 100px;
+    background-color: yellow;
+}
