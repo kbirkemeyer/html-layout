@@ -12,23 +12,23 @@ body {
 
 #tallRectangle {
     background-color: blueviolet;
-    height: 450px;
-    width: 150px;
-    margin-left: 20px;
-    margin-right: 150px;
+    height: 225px;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 75px;
 }
 
 #longRectangle {
     background-color: green;
-    height: 600px;
-    width: 35%;
-    margin-right: 150px;
+    height: 300px;
+    width: 600px;
+    margin-right: 75px;
 }
 
 #circle {
     background-color: skyblue;
-    height: 600px;
-    width: 600px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     border: 5px solid white;
 }
@@ -41,20 +41,26 @@ body {
     background-color: white;
     border: 10px dotted black;
     margin-top: 25px;
-    padding: 50px;
+    padding: 25px;
 }
 
 #longRectangle2 {
-    height: 500px;
+    height: 250px;
     background-color: lightgoldenrodyellow;
-    margin: 100px;
+    margin: 50px;
     box-shadow: 20px 20px 10px #333333;
 }
 
 #text {
-   height: 700px;
    text-align: center;
-   color: blue;
-   box-shadow: 20px 20px 10px gray;
+   color: darkblue;
+   font-size: 75px;
+   font-weight: bold;
+   box-shadow: 10px 10px 5px silver;
+   letter-spacing: 7px;
+   font-family: 'Sansita Swashed', cursive;
+   margin: 25px 30% 25px 30%;
+   padding: 200px;
+   border: 1px solid lightgrey;
 
 }
