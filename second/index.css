@@ -1,13 +1,12 @@
 body {
     box-sizing: border-box;
-    border: 25px solid white;
     display: block;
+    margin: 25px;
 }
 
 #prettyShapes {
     background-color: white;
     height: 30%;
-    width: 100%;
     border: 10px ridge black;
     padding: 30px;
 }
@@ -16,7 +15,7 @@ body {
     background-color: blueviolet;
     height: 450px;
     width: 150px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-right: 150px;
 }
 
@@ -24,8 +23,7 @@ body {
     background-color: green;
     height: 600px;
     width: 35%;
-    border: 5px solid white;
-    margin-right: 100px;
+    margin-right: 150px;
 }
 
 #circle {
@@ -41,16 +39,18 @@ body {
 }
 
 #midsection {
+    background-color: white;
     height: 30%;
-    width: 100%;
     border: 10px dotted black;
+    margin-top: 25px;
+    padding: 50px;
 }
 
 #longRectangle2 {
-    height: 25%;
-    width: 80%;
+    height: 500px;
     background-color: lightgoldenrodyellow;
-    align-content: center;
+    margin: 150px;
+    box-shadow: 20px 20px 10px #333333;
 }
 
 #text {
