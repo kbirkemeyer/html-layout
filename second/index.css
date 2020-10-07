@@ -6,7 +6,6 @@ body {
 
 #prettyShapes {
     background-color: white;
-    height: 30%;
     border: 10px ridge black;
     padding: 30px;
 }
@@ -40,7 +39,6 @@ body {
 
 #midsection {
     background-color: white;
-    height: 30%;
     border: 10px dotted black;
     margin-top: 25px;
     padding: 50px;
@@ -49,11 +47,14 @@ body {
 #longRectangle2 {
     height: 500px;
     background-color: lightgoldenrodyellow;
-    margin: 150px;
+    margin: 100px;
     box-shadow: 20px 20px 10px #333333;
 }
 
 #text {
+   height: 700px;
    text-align: center;
    color: blue;
+   box-shadow: 20px 20px 10px gray;
+
 }
